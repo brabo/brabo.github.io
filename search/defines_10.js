@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['task_5fflag_5fvfork',['TASK_FLAG_VFORK',['../scheduler_8c.html#a932816a5802dff1c064d9c5b621d5759',1,'scheduler.c']]],
+  ['task_5fforked',['TASK_FORKED',['../frosted_8h.html#a163aab6b614e1d558b52ca7ddafae0cd',1,'frosted.h']]],
+  ['task_5fidle',['TASK_IDLE',['../frosted_8h.html#aa56ba1aed5aa073e789fd485da6202f0',1,'frosted.h']]],
+  ['task_5fover',['TASK_OVER',['../frosted_8h.html#a78fbca16c79ae82d96ec682a632ff29e',1,'frosted.h']]],
+  ['task_5frunnable',['TASK_RUNNABLE',['../frosted_8h.html#a9dbd080b9c7d79b61e865717bc06306c',1,'frosted.h']]],
+  ['task_5frunning',['TASK_RUNNING',['../frosted_8h.html#a17e3f99a030e5dfefb8f9815600e3fed',1,'frosted.h']]],
+  ['task_5fspace_5falloc',['task_space_alloc',['../frosted_8h.html#aecf03f500d705cddb4f199606f222c30',1,'frosted.h']]],
+  ['task_5fspace_5ffree',['task_space_free',['../frosted_8h.html#ab56378e268b1b14db451ba7bd458f01a',1,'frosted.h']]],
+  ['task_5fwaiting',['TASK_WAITING',['../frosted_8h.html#aa62d19f3e8e48cdbcd2259661c184fc3',1,'frosted.h']]],
+  ['task_5fzombie',['TASK_ZOMBIE',['../frosted_8h.html#a88316d4f858f89f5facc75f0efa1dc74',1,'frosted.h']]],
+  ['tcp_5fkeepcnt',['TCP_KEEPCNT',['../socket__in_8h.html#a12f91d2d736c245cb8a3dcd9ce47ea56',1,'socket_in.h']]],
+  ['tcp_5fkeepidle',['TCP_KEEPIDLE',['../socket__in_8h.html#aa603b466ef9284b35c22b7281cbaa8cb',1,'socket_in.h']]],
+  ['tcp_5fkeepintvl',['TCP_KEEPINTVL',['../socket__in_8h.html#a9c6b9a6c4de47f3d63a3aebfe576949a',1,'socket_in.h']]],
+  ['tcp_5flinger',['TCP_LINGER',['../socket__in_8h.html#ad4577e0e10f8e0d5ff600484606ad527',1,'socket_in.h']]],
+  ['tcp_5fnodelay',['TCP_NODELAY',['../socket__in_8h.html#a8f02455d581f55196a37a12377ecfc0e',1,'socket_in.h']]],
+  ['timeslice',['TIMESLICE',['../scheduler_8c.html#a5c9f98b0109c9d47587b1ee8564cb63c',1,'scheduler.c']]]
+];

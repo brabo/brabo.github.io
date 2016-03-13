@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['schedule',['schedule',['../frosted_8h.html#a790741990032635599019ab2ed3162c1',1,'frosted.h']]],
+  ['scheduler_5fstack_5fsize',['SCHEDULER_STACK_SIZE',['../scheduler_8c.html#a7b5a6e90e5640db914f061e3a89126e0',1,'scheduler.c']]],
+  ['sector_5fsize',['SECTOR_SIZE',['../xipfs_8c.html#aa35bad1e92008da628f27b2f6bb270aa',1,'xipfs.c']]],
+  ['so_5ferror',['SO_ERROR',['../socket__in_8h.html#a040d4fd00495232970a03425bc00e77a',1,'socket_in.h']]],
+  ['so_5frcvbuf',['SO_RCVBUF',['../socket__in_8h.html#a0db12e960ac303030400d9fd95391b52',1,'socket_in.h']]],
+  ['so_5freuseaddr',['SO_REUSEADDR',['../socket__in_8h.html#a5589f74fada0d0cd47bd6ea8741a58ee',1,'socket_in.h']]],
+  ['so_5freuseport',['SO_REUSEPORT',['../socket__in_8h.html#a36151618368affd148255e77785e365e',1,'socket_in.h']]],
+  ['so_5fsndbuf',['SO_SNDBUF',['../socket__in_8h.html#af618cbb85161ff3196d3bcdf7565ba64',1,'socket_in.h']]],
+  ['socket_5fin_5finit',['socket_in_init',['../frosted_8c.html#abe99e8bf0ecde8fed355739cc94ef9f1',1,'frosted.c']]],
+  ['sockopt_5fget_5fname',['sockopt_get_name',['../socket__in_8h.html#a4569ddaf21b76f5fa9b6be5a8e98dc4a',1,'socket_in.h']]],
+  ['socksize',['SOCKSIZE',['../socket__in_8h.html#a8bc56bf597ba32a5c8d828c75b4c9566',1,'socket_in.h']]],
+  ['socksize6',['SOCKSIZE6',['../socket__in_8h.html#aac0e397743495196829444fb9cd701b4',1,'socket_in.h']]],
+  ['sol_5fsocket',['SOL_SOCKET',['../socket__in_8h.html#a92d045f6ee2f343d6b28830a9fec082e',1,'socket_in.h']]],
+  ['sta_5fnodisk',['STA_NODISK',['../fatfs_8c.html#aec625080763d6cf487e550a6c9a2dd19',1,'fatfs.c']]],
+  ['sta_5fnoinit',['STA_NOINIT',['../fatfs_8c.html#abd6503c70d862b979a3f7080a59e9acd',1,'fatfs.c']]],
+  ['sta_5fok',['STA_OK',['../fatfs_8c.html#a39b028ed63d93dc6f7122cffb443033d',1,'fatfs.c']]],
+  ['stack_5fthreshold',['STACK_THRESHOLD',['../scheduler_8c.html#a8469b86ca939255953e34aae2443d2e8',1,'scheduler.c']]],
+  ['sys_5fcall_5fagain',['SYS_CALL_AGAIN',['../frosted_8h.html#a1855dc809813e6dd6798b834bf548f8f',1,'frosted.h']]]
+];

@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['task_5fchdir',['task_chdir',['../frosted_8h.html#a2ccc62188ed882633689b173b1f691fd',1,'task_chdir(struct fnode *f):&#160;scheduler.c'],['../scheduler_8c.html#a2ccc62188ed882633689b173b1f691fd',1,'task_chdir(struct fnode *f):&#160;scheduler.c']]],
+  ['task_5fcreate',['task_create',['../frosted_8h.html#af4e43574f246f258588414ab4a660592',1,'task_create(struct vfs_info *vfsi, void *arg, unsigned int prio):&#160;scheduler.c'],['../scheduler_8c.html#af4e43574f246f258588414ab4a660592',1,'task_create(struct vfs_info *vfsi, void *arg, unsigned int prio):&#160;scheduler.c']]],
+  ['task_5fend',['task_end',['../scheduler_8c.html#a766cc90d2257cd3d528550dfc060ae2c',1,'scheduler.c']]],
+  ['task_5ffd_5fgetmask',['task_fd_getmask',['../frosted_8h.html#a632cf68b76b05a27e189bbb1ccf15196',1,'task_fd_getmask(int fd):&#160;scheduler.c'],['../scheduler_8c.html#a632cf68b76b05a27e189bbb1ccf15196',1,'task_fd_getmask(int fd):&#160;scheduler.c']]],
+  ['task_5ffd_5freadable',['task_fd_readable',['../frosted_8h.html#a5539b3e333de1dbd683394acb1fe43cc',1,'task_fd_readable(int fd):&#160;scheduler.c'],['../scheduler_8c.html#a5539b3e333de1dbd683394acb1fe43cc',1,'task_fd_readable(int fd):&#160;scheduler.c']]],
+  ['task_5ffd_5fsetmask',['task_fd_setmask',['../frosted_8h.html#a04ecca74247b9018ca32b7a3a8e00978',1,'task_fd_setmask(int fd, uint32_t mask):&#160;scheduler.c'],['../scheduler_8c.html#a04ecca74247b9018ca32b7a3a8e00978',1,'task_fd_setmask(int fd, uint32_t mask):&#160;scheduler.c']]],
+  ['task_5ffd_5fwritable',['task_fd_writable',['../frosted_8h.html#a837becc7ef18497126ff501b4c2e4551',1,'task_fd_writable(int fd):&#160;scheduler.c'],['../scheduler_8c.html#a837becc7ef18497126ff501b4c2e4551',1,'task_fd_writable(int fd):&#160;scheduler.c']]],
+  ['task_5ffiledesc_5fadd',['task_filedesc_add',['../frosted_8h.html#ad23b53c9e71d7ac126a68c2089d82746',1,'task_filedesc_add(struct fnode *f):&#160;scheduler.c'],['../scheduler_8c.html#ad23b53c9e71d7ac126a68c2089d82746',1,'task_filedesc_add(struct fnode *f):&#160;scheduler.c']]],
+  ['task_5ffiledesc_5fdel',['task_filedesc_del',['../frosted_8h.html#ad9d7fe980ee18940b35c8aded5f8f100',1,'task_filedesc_del(int fd):&#160;scheduler.c'],['../scheduler_8c.html#ad9d7fe980ee18940b35c8aded5f8f100',1,'task_filedesc_del(int fd):&#160;scheduler.c']]],
+  ['task_5ffiledesc_5fget',['task_filedesc_get',['../frosted_8h.html#a9fe88914d7e85577393c1ff7cb710823',1,'task_filedesc_get(int fd):&#160;scheduler.c'],['../scheduler_8c.html#a9fe88914d7e85577393c1ff7cb710823',1,'task_filedesc_get(int fd):&#160;scheduler.c']]],
+  ['task_5fgetcwd',['task_getcwd',['../frosted_8h.html#abae9e31855f8abc7a19a6b032c90f1f2',1,'task_getcwd(void):&#160;scheduler.c'],['../scheduler_8c.html#abae9e31855f8abc7a19a6b032c90f1f2',1,'task_getcwd(void):&#160;scheduler.c']]],
+  ['task_5fresume',['task_resume',['../frosted_8h.html#a948e7f00beb7b94d22f2edb38bb084f3',1,'task_resume(int pid):&#160;scheduler.c'],['../scheduler_8c.html#a948e7f00beb7b94d22f2edb38bb084f3',1,'task_resume(int pid):&#160;scheduler.c']]],
+  ['task_5frun',['task_run',['../frosted_8h.html#a9d6d8110dd7ef0fc2d30c21d33f86e17',1,'frosted.h']]],
+  ['task_5frunning',['task_running',['../frosted_8h.html#ac30ccfe577b922fd7aa9c75743c6829d',1,'task_running(void):&#160;scheduler.c'],['../scheduler_8c.html#ac30ccfe577b922fd7aa9c75743c6829d',1,'task_running(void):&#160;scheduler.c']]],
+  ['task_5fsegfault',['task_segfault',['../frosted_8h.html#a4acc43965e56da672cb54f59d848381d',1,'task_segfault(uint32_t addr, uint32_t instr, int flags):&#160;scheduler.c'],['../scheduler_8c.html#aa2988fb313480dc03fab4101ac93bfee',1,'task_segfault(uint32_t address, uint32_t instruction, int flags):&#160;scheduler.c']]],
+  ['task_5fsuspend',['task_suspend',['../frosted_8h.html#a169d531e08dcb02ceeee8a10ea4a0a5a',1,'task_suspend(void):&#160;scheduler.c'],['../scheduler_8c.html#a169d531e08dcb02ceeee8a10ea4a0a5a',1,'task_suspend(void):&#160;scheduler.c']]],
+  ['task_5fterminate',['task_terminate',['../scheduler_8c.html#a25a356f83ccce61da04dd271532a47f8',1,'scheduler.c']]],
+  ['task_5ftimeslice',['task_timeslice',['../frosted_8h.html#a988b72888a27d7aaa892d985a75b9045',1,'task_timeslice(void):&#160;scheduler.c'],['../scheduler_8c.html#a988b72888a27d7aaa892d985a75b9045',1,'task_timeslice(void):&#160;scheduler.c']]],
+  ['tasklet_5fadd',['tasklet_add',['../frosted_8h.html#aa475cb5fd8eb396823e6b399d7cafcf9',1,'tasklet_add(void(*exe)(void *), void *arg):&#160;tasklet.c'],['../tasklet_8c.html#aa475cb5fd8eb396823e6b399d7cafcf9',1,'tasklet_add(void(*exe)(void *), void *arg):&#160;tasklet.c']]],
+  ['timer1_5fhandler',['TIMER1_Handler',['../timer_8c.html#a3d72abf47da89abd8ee548ffc5f3701a',1,'timer.c']]],
+  ['timer_5fon',['Timer_on',['../frosted_8h.html#aeff90cb84dedb7ab1166e0aa0fd84964',1,'Timer_on(unsigned int n):&#160;timer.c'],['../timer_8c.html#aeff90cb84dedb7ab1166e0aa0fd84964',1,'Timer_on(unsigned int n):&#160;timer.c']]]
+];
