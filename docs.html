@@ -1,0 +1,1817 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Overview &mdash; fuserland 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="fuserland 0.1 documentation" href="index.html" />
+    <link rel="prev" title="Getting started" href="tutorial.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_CPPv28binutils">
+<span id="binutils"></span><span class="target" id="fuserlandstructbinutils"></span><em class="property">struct </em><code class="descname">binutils</code><a class="headerlink" href="#_CPPv28binutils" title="Permalink to this definition">¶</a></dt>
+<dd><em>#include &lt;frosted_binutils.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N8binutils4nameE">
+<span id="binutils::name__cA"></span><span class="target" id="fuserlandstructbinutils_1abb2748c564160d99762547bb51dc0d66"></span>char <code class="descname">name</code>[32]<a class="headerlink" href="#_CPPv2N8binutils4nameE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandstructbinutils_1a07f54132c60f5328341483d70c451ee3"></span><code class="descname">int(* binutils::exe) (void **args)</code></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv23env">
+<span id="env"></span><span class="target" id="fuserlandstructenv"></span><em class="property">struct </em><code class="descname">env</code><a class="headerlink" href="#_CPPv23env" title="Permalink to this definition">¶</a></dt>
+<dd><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N3env3keyE">
+<span id="env::key__cP"></span><span class="target" id="fuserlandstructenv_1a170118ec15be2b419562524b75693d9f"></span>char *<code class="descname">key</code><a class="headerlink" href="#_CPPv2N3env3keyE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N3env5valueE">
+<span id="env::value__cP"></span><span class="target" id="fuserlandstructenv_1a4c45a37bbe3008aa248a28d0b60289b7"></span>char *<code class="descname">value</code><a class="headerlink" href="#_CPPv2N3env5valueE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N3env4nextE">
+<span id="env::next__envP"></span><span class="target" id="fuserlandstructenv_1ac36b91e47d8a037e1d9c970259703f57"></span><em class="property">struct</em> <a class="reference internal" href="#_CPPv23env" title="env">env</a> *<code class="descname">next</code><a class="headerlink" href="#_CPPv2N3env4nextE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv22ht">
+<span id="ht"></span><span class="target" id="fuserlandstructht"></span><em class="property">struct </em><code class="descname">ht</code><a class="headerlink" href="#_CPPv22ht" title="Permalink to this definition">¶</a></dt>
+<dd><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N2ht4typeE">
+<span id="ht::type__i"></span><span class="target" id="fuserlandstructht_1a78b8b8ab7b709b13a109e69ab9ac1a77"></span>int <code class="descname">type</code><a class="headerlink" href="#_CPPv2N2ht4typeE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2ht6numberE">
+<span id="ht::number__i"></span><span class="target" id="fuserlandstructht_1a4eed38df14b9ea800540b535ccfefefb"></span>int <code class="descname">number</code><a class="headerlink" href="#_CPPv2N2ht6numberE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2ht4sideE">
+<span id="ht::side__i"></span><span class="target" id="fuserlandstructht_1a9f9b8fc52ec022e6c6e832a908136a65"></span>int <code class="descname">side</code><a class="headerlink" href="#_CPPv2N2ht4sideE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2ht5startE">
+<span id="ht::start__l"></span><span class="target" id="fuserlandstructht_1ab44a649cf00872efbcd3bebb3b7569b4"></span>long <code class="descname">start</code><a class="headerlink" href="#_CPPv2N2ht5startE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2ht3endE">
+<span id="ht::end__l"></span><span class="target" id="fuserlandstructht_1a0224b5b957556fb8d5055f81521b525b"></span>long <code class="descname">end</code><a class="headerlink" href="#_CPPv2N2ht3endE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv215l3gd20_ctrl_reg">
+<span id="l3gd20_ctrl_reg"></span><span class="target" id="fuserlandstructl3gd20__ctrl__reg"></span><em class="property">struct </em><code class="descname">l3gd20_ctrl_reg</code><a class="headerlink" href="#_CPPv215l3gd20_ctrl_reg" title="Permalink to this definition">¶</a></dt>
+<dd><em>#include &lt;frosted_binutils.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N15l3gd20_ctrl_reg3regE">
+<span id="l3gd20_ctrl_reg::reg__uint8_t"></span><span class="target" id="fuserlandstructl3gd20__ctrl__reg_1a3a505f55f305721e7b78ce5163f97932"></span>uint8_t <code class="descname">reg</code><a class="headerlink" href="#_CPPv2N15l3gd20_ctrl_reg3regE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N15l3gd20_ctrl_reg4dataE">
+<span id="l3gd20_ctrl_reg::data__uint8_t"></span><span class="target" id="fuserlandstructl3gd20__ctrl__reg_1a3c411c078b29d43e861f88dbb718e491"></span>uint8_t <code class="descname">data</code><a class="headerlink" href="#_CPPv2N15l3gd20_ctrl_reg4dataE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv219lsm303dlhc_ctrl_reg">
+<span id="lsm303dlhc_ctrl_reg"></span><span class="target" id="fuserlandstructlsm303dlhc__ctrl__reg"></span><em class="property">struct </em><code class="descname">lsm303dlhc_ctrl_reg</code><a class="headerlink" href="#_CPPv219lsm303dlhc_ctrl_reg" title="Permalink to this definition">¶</a></dt>
+<dd><em>#include &lt;frosted_binutils.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N19lsm303dlhc_ctrl_reg3regE">
+<span id="lsm303dlhc_ctrl_reg::reg__uint8_t"></span><span class="target" id="fuserlandstructlsm303dlhc__ctrl__reg_1aef00dbbd74ed214fd7ac4d81fc0ca035"></span>uint8_t <code class="descname">reg</code><a class="headerlink" href="#_CPPv2N19lsm303dlhc_ctrl_reg3regE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N19lsm303dlhc_ctrl_reg4dataE">
+<span id="lsm303dlhc_ctrl_reg::data__uint8_t"></span><span class="target" id="fuserlandstructlsm303dlhc__ctrl__reg_1ac0120481f780944119c16c00d49efb6d"></span>uint8_t <code class="descname">data</code><a class="headerlink" href="#_CPPv2N19lsm303dlhc_ctrl_reg4dataE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv211netcat_conf">
+<span id="netcat_conf"></span><span class="target" id="fuserlandstructnetcat__conf"></span><em class="property">struct </em><code class="descname">netcat_conf</code><a class="headerlink" href="#_CPPv211netcat_conf" title="Permalink to this definition">¶</a></dt>
+<dd><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N11netcat_conf4modeE">
+<span id="netcat_conf::mode__i"></span><span class="target" id="fuserlandstructnetcat__conf_1adf0d86215a6e5697905f80486101a303"></span>int <code class="descname">mode</code><a class="headerlink" href="#_CPPv2N11netcat_conf4modeE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N11netcat_conf8socktypeE">
+<span id="netcat_conf::socktype__uint16_t"></span><span class="target" id="fuserlandstructnetcat__conf_1a2da7cf165c05f821d9d3b033b4c2b9f4"></span>uint16_t <code class="descname">socktype</code><a class="headerlink" href="#_CPPv2N11netcat_conf8socktypeE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N11netcat_conf4portE">
+<span id="netcat_conf::port__uint16_t"></span><span class="target" id="fuserlandstructnetcat__conf_1a5d7445bacdb537b5712fb7f5c805e171"></span>uint16_t <code class="descname">port</code><a class="headerlink" href="#_CPPv2N11netcat_conf4portE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N11netcat_conf5lportE">
+<span id="netcat_conf::lport__uint16_t"></span><span class="target" id="fuserlandstructnetcat__conf_1a167b337739b3d7252bfdcfcee3b358b6"></span>uint16_t <code class="descname">lport</code><a class="headerlink" href="#_CPPv2N11netcat_conf5lportE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N11netcat_conf4hostE">
+<span id="netcat_conf::host__cP"></span><span class="target" id="fuserlandstructnetcat__conf_1af243985a5b7d58d51152111f793c220e"></span>char *<code class="descname">host</code><a class="headerlink" href="#_CPPv2N11netcat_conf4hostE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="_CPPv22wc">
+<span id="wc"></span><span class="target" id="fuserlandstructwc"></span><em class="property">struct </em><code class="descname">wc</code><a class="headerlink" href="#_CPPv22wc" title="Permalink to this definition">¶</a></dt>
+<dd><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Public Members</p>
+<dl class="member">
+<dt id="_CPPv2N2wc5linesE">
+<span id="wc::lines__l"></span><span class="target" id="fuserlandstructwc_1ac18e596e35c3feaf59b0868732c1c803"></span>long <code class="descname">lines</code><a class="headerlink" href="#_CPPv2N2wc5linesE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2wc5wordsE">
+<span id="wc::words__l"></span><span class="target" id="fuserlandstructwc_1a58b2dc1295597a272425031f13effdc8"></span>long <code class="descname">words</code><a class="headerlink" href="#_CPPv2N2wc5wordsE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv2N2wc5bytesE">
+<span id="wc::bytes__l"></span><span class="target" id="fuserlandstructwc_1a35d6353fa72bfe4b56bacfb727353f16"></span>long <code class="descname">bytes</code><a class="headerlink" href="#_CPPv2N2wc5bytesE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandcat_8c"></span><em>file</em> <code class="descname">cat.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandcat_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandcut_8c"></span><em>file</em> <code class="descname">cut.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandcut_8c_1a36aa839806db0fc58cf7a1a6f2e722d5"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlandcut_8c_1aa33776ae4401823167f720f607c96ca9"></span><code class="descname">while(( c =getopt( argc ,(char **) args,&quot;d:c:f:&quot;))! = -1)</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlandcut_8c_1ae87a383917909e2d48ba58c010a2e5aa"></span><code class="descname">if(b = =0)</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlandcut_8c_1a10e64585c19d6f094222a5c3fc161bcf"></span><code class="descname">if(delim! = 't'&amp;&amp;flags!= 'f')</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlandcut_8c_1ad6e60c3bc68d50b896592eb4937d184f"></span><code class="descname">if()</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandcut_8c_1a1222c80280fecf9e4e99f95319212c49"></span><code class="descname">optind</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv26optarg">
+<span id="optarg__cP"></span><span class="target" id="fuserlandcut_8c_1adb50a0eab9fed92fc3bfc7dfa4f2c410"></span>char *<code class="descname">optarg</code><a class="headerlink" href="#_CPPv26optarg" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv26endptr">
+<span id="endptr__cP"></span><span class="target" id="fuserlandcut_8c_1aa2096553fb76c0e4b9d8784f368bc673"></span>char *<code class="descname">endptr</code><a class="headerlink" href="#_CPPv26endptr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24line">
+<span id="line__cP"></span><span class="target" id="fuserlandcut_8c_1a23c15a972e063257ed7d820c4fdcf923"></span>char *<code class="descname">line</code><a class="headerlink" href="#_CPPv24line" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv21c">
+<span id="c__i"></span><span class="target" id="fuserlandcut_8c_1a4e1e0e72dd773439e333c84dd762a9c3"></span>int <code class="descname">c</code><a class="headerlink" href="#_CPPv21c" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv25start">
+<span id="start__i"></span><span class="target" id="fuserlandcut_8c_1a37722a150250e2a5a98e5e0d11e53449"></span>int <code class="descname">start</code><a class="headerlink" href="#_CPPv25start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv23end">
+<span id="end__i"></span><span class="target" id="fuserlandcut_8c_1abce9f5dc9c83f2639b72024fdee5d388"></span>int <code class="descname">end</code><a class="headerlink" href="#_CPPv23end" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv21i">
+<span id="i__i"></span><span class="target" id="fuserlandcut_8c_1acb559820d9ca11295b4500f179ef6392"></span>int <code class="descname">i</code><a class="headerlink" href="#_CPPv21i" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandcut_8c_1abf2bc2545a4a5f5683d9ef3ed0d977e0"></span><code class="descname">j</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv23len">
+<span id="len__i"></span><span class="target" id="fuserlandcut_8c_1afed088663f8704004425cdae2120b9b3"></span>int <code class="descname">len</code><a class="headerlink" href="#_CPPv23len" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv25flags">
+<span id="flags__i"></span><span class="target" id="fuserlandcut_8c_1ac8bf36fe0577cba66bccda3a6f7e80a4"></span>int <code class="descname">flags</code><a class="headerlink" href="#_CPPv25flags" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24slot">
+<span id="slot__i"></span><span class="target" id="fuserlandcut_8c_1a83d6e2127b4cc5e01f2012608487d31a"></span>int <code class="descname">slot</code><a class="headerlink" href="#_CPPv24slot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandcut_8c_1aaab0d2861777764f0747bc95c3b6540a"></span><code class="descname">argc</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv21b">
+<span id="b__i"></span><span class="target" id="fuserlandcut_8c_1a148e3876077787926724625411d6e7a9"></span>int <code class="descname">b</code><a class="headerlink" href="#_CPPv21b" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24mode">
+<span id="mode__i"></span><span class="target" id="fuserlandcut_8c_1a1ea5d0cb93f22f7d0fdf804bd68c3326"></span>int <code class="descname">mode</code><a class="headerlink" href="#_CPPv24mode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandcut_8c_1ae0b4b1496f63c135c91d1e2ff5a0645e"></span><code class="descname">opterr</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv25delim">
+<span id="delim__c"></span><span class="target" id="fuserlandcut_8c_1ab56c67e0ed9605b4078e2135f791c4ed"></span>char <code class="descname">delim</code><a class="headerlink" href="#_CPPv25delim" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24fdfn">
+<span id="fdfn__iA"></span><span class="target" id="fuserlandcut_8c_1afa7951015f7788fe0f67987bd4283921"></span>int <code class="descname">fdfn</code>[MAXFILES]<a class="headerlink" href="#_CPPv24fdfn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlandcut_8c_1a0544c3fe466e421738dae463968b70ba"></span><code class="descname">else</code></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlanddirname_8c"></span><em>file</em> <code class="descname">dirname.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span>virtual <span class="target" id="fuserlanddirname_8c_1ae95f08d628df27e43cc45e94ad3e8b6c"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span> = 0<a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1ad52c27c7f7197f26c7c178f0b24fd84e"></span><code class="descname">setlocale(LC_ALL, &quot;&quot;)</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1a2ca01bfb0e14b5e89b0d1fed8bd8263d"></span><code class="descname">if()</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1a1e8889d1b1144d1790d8d8bc979e6877"></span><code class="descname">while(( c =getopt( argc ,(char **) args,&quot;r&quot;))! = -1)</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1a7cb93dcdeea4970a05c056af35a25fff"></span><code class="descname">while(args![i] = NULL)</code></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1adf5c804dfce7a70e36dda02995fad481"></span><code class="descname">exit(0)</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1a7e98b8a17c0aad30ba64d47b74e2a6c1"></span><code class="descname">i</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv21c">
+<span id="c__i"></span><span class="target" id="fuserlanddirname_8c_1a4e1e0e72dd773439e333c84dd762a9c3"></span>int <code class="descname">c</code><a class="headerlink" href="#_CPPv21c" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1a1222c80280fecf9e4e99f95319212c49"></span><code class="descname">optind</code></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv25delim">
+<span id="delim__c"></span><span class="target" id="fuserlanddirname_8c_1ab56c67e0ed9605b4078e2135f791c4ed"></span>char <code class="descname">delim</code><a class="headerlink" href="#_CPPv25delim" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24head">
+<span id="head__cP"></span><span class="target" id="fuserlanddirname_8c_1a873ff4f063e5db6eabcc2e96671c9591"></span>char *<code class="descname">head</code><a class="headerlink" href="#_CPPv24head" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv24tail">
+<span id="tail__cP"></span><span class="target" id="fuserlanddirname_8c_1a0ff6f19804375129a9e0ee5f0e00c7bd"></span>char *<code class="descname">tail</code><a class="headerlink" href="#_CPPv24tail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv25flags">
+<span id="flags__cPP"></span><span class="target" id="fuserlanddirname_8c_1a6b8b732c8ae09bfcc3e3210550681c6c"></span>char **<code class="descname">flags</code><a class="headerlink" href="#_CPPv25flags" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt>
+<span class="target" id="fuserlanddirname_8c_1aaab0d2861777764f0747bc95c3b6540a"></span><code class="descname">argc</code></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandecho_8c"></span><em>file</em> <code class="descname">echo.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandecho_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandfalse_8c"></span><em>file</em> <code class="descname">false.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandfalse_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandfresh_8c"></span><em>file</em> <code class="descname">fresh.c</code></dt>
+<dd><em>#include &lt;stdio.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;signal.h&gt;</em><em>#include &lt;sys/wait.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;termios.h&gt;</em><em>#include &lt;sys/stat.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.LIMIT">
+<span class="target" id="fuserlandfresh_8c_1a5977928b042d0a4b2ce93baa979e5f5c"></span><code class="descname">LIMIT</code><a class="headerlink" href="#c.LIMIT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.MAXLINE">
+<span class="target" id="fuserlandfresh_8c_1a3e937c42922f7601edb17b747602c471"></span><code class="descname">MAXLINE</code><a class="headerlink" href="#c.MAXLINE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv219signalHandler_childi">
+<span id="signalHandler_child__i"></span><span class="target" id="fuserlandfresh_8c_1a78d67500fbc2e3d5e3fafb09cde3b055"></span>void <code class="descname">signalHandler_child</code><span class="sig-paren">(</span>int <em>p</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv219signalHandler_childi" title="Permalink to this definition">¶</a></dt>
+<dd><p>SIGNAL HANDLERS. </p>
+<p>signal handler for SIGCHLD </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv217signalHandler_inti">
+<span id="signalHandler_int__i"></span><span class="target" id="fuserlandfresh_8c_1a6d46065c2e0d12a761dc2ea943d9b4d3"></span>void <code class="descname">signalHandler_int</code><span class="sig-paren">(</span>int <em>p</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv217signalHandler_inti" title="Permalink to this definition">¶</a></dt>
+<dd><p>Signal handler for SIGINT. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv215changeDirectoryA_Pc">
+<span id="changeDirectory__cPA"></span><span class="target" id="fuserlandfresh_8c_1ab4d7af1fcae7809ffac280ae65200b9e"></span>int <code class="descname">changeDirectory</code><span class="sig-paren">(</span>char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv215changeDirectoryA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to change directory. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv26puts_rP6_reentPKc">
+<span id="puts_r___reentP.cCP"></span><span class="target" id="fuserlandfresh_8c_1a721a1b7fc2410042c0f4b81a93f266fe"></span>int <code class="descname">puts_r</code><span class="sig-paren">(</span><em class="property">struct</em> _reent *<em>r</em>, <em class="property">const</em> char *<em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv26puts_rP6_reentPKc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210shell_initPc">
+<span id="shell_init__cP"></span><span class="target" id="fuserlandfresh_8c_1aae0dc5ffdd9cb66d74a78436855e1bea"></span>void <code class="descname">shell_init</code><span class="sig-paren">(</span>char *<em>file</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210shell_initPc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function used to initialize our shell. </p>
+<p>We used the approach explained in <a class="reference external" href="http://www.gnu.org/software/libc/manual/html_node/Initializing-the-Shell.html">http://www.gnu.org/software/libc/manual/html_node/Initializing-the-Shell.html</a> </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv213welcomeScreenv">
+<span id="welcomeScreen"></span><span class="target" id="fuserlandfresh_8c_1a446b029885819ee47adb7e2cb2f3e547"></span>void <code class="descname">welcomeScreen</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv213welcomeScreenv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to print the welcome screen of our shell. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211shellPromptv">
+<span id="shellPrompt"></span><span class="target" id="fuserlandfresh_8c_1aaba9790ef87b376d3e91aa463699e067"></span>void <code class="descname">shellPrompt</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211shellPromptv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays the prompt for the shell. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv27_setenvPKcPKc">
+<span id="_setenv__cCP.cCP"></span><span class="target" id="fuserlandfresh_8c_1afcec382df50a41b40c9530a70959e4ed"></span><em class="property">static</em> int <code class="descname">_setenv</code><span class="sig-paren">(</span><em class="property">const</em> char *<em>key</em>, <em class="property">const</em> char *<em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv27_setenvPKcPKc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to set an environment variable. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv27_getenvPKc">
+<span id="_getenv__cCP"></span><span class="target" id="fuserlandfresh_8c_1aeac2229356d956b863f5931784a898f0"></span>char *<code class="descname">_getenv</code><span class="sig-paren">(</span><em class="property">const</em> char *<em>key</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv27_getenvPKc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to get an environment variable. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv213manageEnvironA_Pci">
+<span id="manageEnviron__cPA.i"></span><span class="target" id="fuserlandfresh_8c_1a89473e8734e6d5e5b7e7e8abfeea88ac"></span>int <code class="descname">manageEnviron</code><span class="sig-paren">(</span>char *<em>args</em>[], int <em>option</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv213manageEnvironA_Pci" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to manage the environment variables with different options. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210launchProgPPci">
+<span id="launchProg__cPP.i"></span><span class="target" id="fuserlandfresh_8c_1a0341e7ad03cebc9cd78cd8d9cf5e9f79"></span>void <code class="descname">launchProg</code><span class="sig-paren">(</span>char **<em>args</em>, int <em>background</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210launchProgPPci" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method for launching a program. </p>
+<p>It can be run in the background or in the foreground </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv26fileIOA_PcPcPci">
+<span id="fileIO__cPA.cP.cP.i"></span><span class="target" id="fuserlandfresh_8c_1a73a65b6cd570c30780b5075152eeeb59"></span>void <code class="descname">fileIO</code><span class="sig-paren">(</span>char *<em>args</em>[], char *<em>inputFile</em>, char *<em>outputFile</em>, int <em>option</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv26fileIOA_PcPcPci" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to manage I/O redirection. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211pipeHandlerA_Pc">
+<span id="pipeHandler__cPA"></span><span class="target" id="fuserlandfresh_8c_1a1656545637067dd163d1e8ceac185d57"></span>void <code class="descname">pipeHandler</code><span class="sig-paren">(</span>char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211pipeHandlerA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to manage pipes. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv214commandHandlerA_Pc">
+<span id="commandHandler__cPA"></span><span class="target" id="fuserlandfresh_8c_1aa644357131bc67cf71556ca886b6ab8d"></span>int <code class="descname">commandHandler</code><span class="sig-paren">(</span>char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv214commandHandlerA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to handle the commands entered via the standard input. </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv213pointer_shiftPiii">
+<span id="pointer_shift__iP.i.i"></span><span class="target" id="fuserlandfresh_8c_1a39f1dba199f8bc05cf75cf56b1fd1291"></span>void <code class="descname">pointer_shift</code><span class="sig-paren">(</span>int *<em>a</em>, int <em>s</em>, int <em>n</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv213pointer_shiftPiii" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv212readline_ttyPci">
+<span id="readline_tty__cP.i"></span><span class="target" id="fuserlandfresh_8c_1a02f32846c45180e2ac77db63e640a32e"></span>char *<code class="descname">readline_tty</code><span class="sig-paren">(</span>char *<em>input</em>, int <em>size</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv212readline_ttyPci" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv214readline_nottyPci">
+<span id="readline_notty__cP.i"></span><span class="target" id="fuserlandfresh_8c_1ab90db15c80cf7e60f255e492333f5af5"></span>char *<code class="descname">readline_notty</code><span class="sig-paren">(</span>char *<em>input</em>, int <em>len</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv214readline_nottyPci" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv28readlinePci">
+<span id="readline__cP.i"></span><span class="target" id="fuserlandfresh_8c_1a0be0506e92eaad08fe743fac881c865b"></span><em class="property">static</em> char *<code class="descname">readline</code><span class="sig-paren">(</span>char *<em>input</em>, int <em>len</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv28readlinePci" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandfresh_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main method of our shell. </p>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt id="_CPPv28GBSH_PID">
+<span id="GBSH_PID__pid_t"></span><span class="target" id="fuserlandfresh_8c_1a3e506610b9d28d24ecd743fc1cb6c954"></span>pid_t <code class="descname">GBSH_PID</code><a class="headerlink" href="#_CPPv28GBSH_PID" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv29GBSH_PGID">
+<span id="GBSH_PGID__pid_t"></span><span class="target" id="fuserlandfresh_8c_1a31a0ef12c71543fc4c8ad0648c51f970"></span>pid_t <code class="descname">GBSH_PGID</code><a class="headerlink" href="#_CPPv29GBSH_PGID" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv219GBSH_IS_INTERACTIVE">
+<span id="GBSH_IS_INTERACTIVE__i"></span><span class="target" id="fuserlandfresh_8c_1af94d4b3f18af460b88fcc6d491da5d5b"></span>int <code class="descname">GBSH_IS_INTERACTIVE</code><a class="headerlink" href="#_CPPv219GBSH_IS_INTERACTIVE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv211GBSH_TMODES">
+<span id="GBSH_TMODES__termios"></span><span class="target" id="fuserlandfresh_8c_1aa254eade8e09103b8bf23efe2641d9d7"></span><em class="property">struct</em> termios <code class="descname">GBSH_TMODES</code><a class="headerlink" href="#_CPPv211GBSH_TMODES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv29act_child">
+<span id="act_child__sigaction"></span><span class="target" id="fuserlandfresh_8c_1adbeddeabd6eb57890ac362adfd6deefc"></span><em class="property">struct</em> sigaction <code class="descname">act_child</code><a class="headerlink" href="#_CPPv29act_child" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv27act_int">
+<span id="act_int__sigaction"></span><span class="target" id="fuserlandfresh_8c_1aa7427dd64eebb65368a67b8226f84091"></span><em class="property">struct</em> sigaction <code class="descname">act_int</code><a class="headerlink" href="#_CPPv27act_int" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv216no_reprint_prmpt">
+<span id="no_reprint_prmpt__i"></span><span class="target" id="fuserlandfresh_8c_1a0b5f7d62f74dfbc268c08c3f2329c9b2"></span>int <code class="descname">no_reprint_prmpt</code><a class="headerlink" href="#_CPPv216no_reprint_prmpt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv23pid">
+<span id="pid__pid_t"></span><span class="target" id="fuserlandfresh_8c_1ae0d46a978d5cd6707411f276ad869b9c"></span>pid_t <code class="descname">pid</code><a class="headerlink" href="#_CPPv23pid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv211Environment">
+<span id="Environment__envP"></span><span class="target" id="fuserlandfresh_8c_1a436f23aa3e3be4ad84634a4c4262d4e4"></span><em class="property">struct</em> <a class="reference internal" href="#_CPPv23env" title="env">env</a> *<code class="descname">Environment</code><a class="headerlink" href="#_CPPv211Environment" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv216currentDirectory">
+<span id="currentDirectory__cA"></span><span class="target" id="fuserlandfresh_8c_1a0df2f15f269f0383c773b8ad577c5b4b"></span>char <code class="descname">currentDirectory</code>[128]<a class="headerlink" href="#_CPPv216currentDirectory" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv27lastcmd">
+<span id="lastcmd__cA"></span><span class="target" id="fuserlandfresh_8c_1a7c8d5eb075ed5423cb1da176adab85c8"></span>char <code class="descname">lastcmd</code>[128]<a class="headerlink" href="#_CPPv27lastcmd" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandfrosted__binutils_8h"></span><em>file</em> <code class="descname">frosted_binutils.h</code></dt>
+<dd><em>#include &lt;string.h&gt;</em><em>#include &lt;strings.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;sys/stat.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;poll.h&gt;</em><em>#include &lt;locale.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;errno.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;signal.h&gt;</em><em>#include &lt;getopt.h&gt;</em><em>#include &lt;ctype.h&gt;</em><em>#include &lt;ioctl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.STDIN_FILENO">
+<span class="target" id="fuserlandfrosted__binutils_8h_1afcf80a6d91178952d107ad00b165752b"></span><code class="descname">STDIN_FILENO</code><a class="headerlink" href="#c.STDIN_FILENO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.STDOUT_FILENO">
+<span class="target" id="fuserlandfrosted__binutils_8h_1abd165ee6474b5b75bf075842fff13a04"></span><code class="descname">STDOUT_FILENO</code><a class="headerlink" href="#c.STDOUT_FILENO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.STDERR_FILENO">
+<span class="target" id="fuserlandfrosted__binutils_8h_1ae2fe1725bb5e9823d089c46b9ed5266e"></span><code class="descname">STDERR_FILENO</code><a class="headerlink" href="#c.STDERR_FILENO" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.BUFSIZE">
+<span class="target" id="fuserlandfrosted__binutils_8h_1aeca034f67218340ecb2261a22c2f3dcd"></span><code class="descname">BUFSIZE</code><a class="headerlink" href="#c.BUFSIZE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.MAXFILES">
+<span class="target" id="fuserlandfrosted__binutils_8h_1a95988532bf766e92740c5ee869778e4d"></span><code class="descname">MAXFILES</code><a class="headerlink" href="#c.MAXFILES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.ARCH">
+<span class="target" id="fuserlandfrosted__binutils_8h_1a63e66b419dba650abc74240836e8447a"></span><code class="descname">ARCH</code><a class="headerlink" href="#c.ARCH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandhead_8c"></span><em>file</em> <code class="descname">head.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.LINES">
+<span class="target" id="fuserlandhead_8c_1a321ae946de24c36489276616d13c46cd"></span><code class="descname">LINES</code><a class="headerlink" href="#c.LINES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.WORDS">
+<span class="target" id="fuserlandhead_8c_1ae2814c32a96e064e19d7fa0d29091c77"></span><code class="descname">WORDS</code><a class="headerlink" href="#c.WORDS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.BYTES">
+<span class="target" id="fuserlandhead_8c_1a8c8b55fe0c93b506f5a9b6f417452371"></span><code class="descname">BYTES</code><a class="headerlink" href="#c.BYTES" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.NDEFAULT">
+<span class="target" id="fuserlandhead_8c_1ad3f227a5da052c9b22dd6e4b1d0c20e2"></span><code class="descname">NDEFAULT</code><a class="headerlink" href="#c.NDEFAULT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.IN">
+<span class="target" id="fuserlandhead_8c_1ac2bbd6d630a06a980d9a92ddb9a49928"></span><code class="descname">IN</code><a class="headerlink" href="#c.IN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.OUT">
+<span class="target" id="fuserlandhead_8c_1aec78e7a9e90a406a56f859ee456e8eae"></span><code class="descname">OUT</code><a class="headerlink" href="#c.OUT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.START">
+<span class="target" id="fuserlandhead_8c_1a3018c7600b7bb9866400596a56a57af7"></span><code class="descname">START</code><a class="headerlink" href="#c.START" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.END">
+<span class="target" id="fuserlandhead_8c_1a29fd18bed01c4d836c7ebfe73a125c3f"></span><code class="descname">END</code><a class="headerlink" href="#c.END" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv210parse_optsiA_PcP2ht">
+<span id="parse_opts__i.cPA.htP"></span><span class="target" id="fuserlandhead_8c_1a1fe03cc81bdb5c5b87c7580069ef22cb"></span>int <code class="descname">parse_opts</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[], <em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210parse_optsiA_PcP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210word_countiP2wc">
+<span id="word_count__i.wcP"></span><span class="target" id="fuserlandhead_8c_1a736e2a8578e81a5461af14e62105e425"></span>int <code class="descname">word_count</code><span class="sig-paren">(</span>int <em>fd</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210word_countiP2wc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211set_defaultP2ht">
+<span id="set_default__htP"></span><span class="target" id="fuserlandhead_8c_1a1bac1b36d878c33c787cdaac835bbdc6"></span>int <code class="descname">set_default</code><span class="sig-paren">(</span><em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211set_defaultP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210set_offsetP2htP2wc">
+<span id="set_offset__htP.wcP"></span><span class="target" id="fuserlandhead_8c_1a75222cee65c0a8009d7a473ba130fb42"></span>int <code class="descname">set_offset</code><span class="sig-paren">(</span><em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210set_offsetP2htP2wc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv29ouroborosiP2ht">
+<span id="ouroboros__i.htP"></span><span class="target" id="fuserlandhead_8c_1aea6cc56923a3680335589b9ef75d1555"></span>int <code class="descname">ouroboros</code><span class="sig-paren">(</span>int <em>fd</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29ouroborosiP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandhead_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandidling_8c"></span><em>file</em> <code class="descname">idling.c</code></dt>
+<dd><em>#include &lt;stdint.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;sys/stat.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;unistd.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.LED0">
+<span class="target" id="fuserlandidling_8c_1ae8d5b4e7e2d9d21caaa4744d385d7cc7"></span><code class="descname">LED0</code><a class="headerlink" href="#c.LED0" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.LED1">
+<span class="target" id="fuserlandidling_8c_1a8aa85ae9867fabf70ec72cd3bf6fb6b9"></span><code class="descname">LED1</code><a class="headerlink" href="#c.LED1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.LED2">
+<span class="target" id="fuserlandidling_8c_1ad09fe5bf321b9a2de26bd5e5b9af6424"></span><code class="descname">LED2</code><a class="headerlink" href="#c.LED2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.LED3">
+<span class="target" id="fuserlandidling_8c_1a4b7ff8e253a7412f83deba3a447028a8"></span><code class="descname">LED3</code><a class="headerlink" href="#c.LED3" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandidling_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandinit_8c"></span><em>file</em> <code class="descname">init.c</code></dt>
+<dd><em>#include &#8220;syscalls.h&#8221;</em><em>#include &#8220;ioctl.h&#8221;</em><em>#include &lt;sys/socket.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;signal.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.IDLE">
+<span class="target" id="fuserlandinit_8c_1af44207e13c9b4057de7855f1186fc76d"></span><code class="descname">IDLE</code><a class="headerlink" href="#c.IDLE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.GREETING">
+<span class="target" id="fuserlandinit_8c_1a66c211dcf81bdb5b9e4dab252387eb52"></span><code class="descname">GREETING</code><a class="headerlink" href="#c.GREETING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainPv">
+<span id="main__voidP"></span><span class="target" id="fuserlandinit_8c_1a97eca6f05b5cb9ac26fa9a4bcf682f6a"></span>int <code class="descname">main</code><span class="sig-paren">(</span>void *<em>arg</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainPv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt id="_CPPv25_init">
+<span id="_init__voidP"></span><span class="target" id="fuserlandinit_8c_1ab1cc025d4d8e8c2b346b6f1602ce351e"></span>void *<code class="descname">_init</code><a class="headerlink" href="#_CPPv25_init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv210idling_txt">
+<span id="idling_txt__cA"></span><span class="target" id="fuserlandinit_8c_1a3daec536c8a6e189a5fa06c4ee2c3f5c"></span>char <code class="descname">idling_txt</code>[10]<a class="headerlink" href="#_CPPv210idling_txt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv29fresh_txt">
+<span id="fresh_txt__cA"></span><span class="target" id="fuserlandinit_8c_1a068e960be8499860c275eba4e126b95a"></span>char <code class="descname">fresh_txt</code>[10]<a class="headerlink" href="#_CPPv29fresh_txt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv210serial_dev">
+<span id="serial_dev__cA"></span><span class="target" id="fuserlandinit_8c_1a4eb5bb3b31ef75ce35c7323bfd556c9f"></span>char <code class="descname">serial_dev</code>[12]<a class="headerlink" href="#_CPPv210serial_dev" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv211idling_path">
+<span id="idling_path__cCA"></span><span class="target" id="fuserlandinit_8c_1a318143f69b61e51144e66af8c3e9907c"></span><em class="property">const</em> char <code class="descname">idling_path</code>[30]<a class="headerlink" href="#_CPPv211idling_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv210fresh_path">
+<span id="fresh_path__cCA"></span><span class="target" id="fuserlandinit_8c_1a82c9b032d08333308c4c0de81fea32e2"></span><em class="property">const</em> char <code class="descname">fresh_path</code>[30]<a class="headerlink" href="#_CPPv210fresh_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv210fresh_args">
+<span id="fresh_args__cPCA"></span><span class="target" id="fuserlandinit_8c_1a6e473f5719d70cea40fe7404ae3af77a"></span>char *<em class="property">const</em> <code class="descname">fresh_args</code>[3]<a class="headerlink" href="#_CPPv210fresh_args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv211idling_args">
+<span id="idling_args__cPCA"></span><span class="target" id="fuserlandinit_8c_1a9699d072e1be852ccc43090c79e12ea6"></span>char *<em class="property">const</em> <code class="descname">idling_args</code>[2]<a class="headerlink" href="#_CPPv211idling_args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandkill_8c"></span><em>file</em> <code class="descname">kill.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><em>#include &lt;signal.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandkill_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandln_8c"></span><em>file</em> <code class="descname">ln.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandln_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandls_8c"></span><em>file</em> <code class="descname">ls.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><em>#include &lt;dirent.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandls_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandmkdir_8c"></span><em>file</em> <code class="descname">mkdir.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandmkdir_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandmount_8c"></span><em>file</em> <code class="descname">mount.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><em>#include &lt;signal.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv25mountPKcPKcPKcmPKv">
+<span id="mount__cCP.cCP.cCP.unsigned-l.voidCP"></span><span class="target" id="fuserlandmount_8c_1adaaf1ec8aa37137233fa25d2b3af9fc8"></span>int <code class="descname">mount</code><span class="sig-paren">(</span><em class="property">const</em> char *<em>source</em>, <em class="property">const</em> char *<em>target</em>, <em class="property">const</em> char *<em>filesystemtype</em>, unsigned long <em>mountflags</em>, <em class="property">const</em> void *<em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv25mountPKcPKcPKcmPKv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandmount_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandrm_8c"></span><em>file</em> <code class="descname">rm.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandrm_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandsleep_8c"></span><em>file</em> <code class="descname">sleep.c</code></dt>
+<dd><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandsleep_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandsys__test_8c"></span><em>file</em> <code class="descname">sys_test.c</code></dt>
+<dd><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;errno.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandsys__test_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandtail_8c"></span><em>file</em> <code class="descname">tail.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1a321ae946de24c36489276616d13c46cd"></span><code class="descname">LINES</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1ae2814c32a96e064e19d7fa0d29091c77"></span><code class="descname">WORDS</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1a8c8b55fe0c93b506f5a9b6f417452371"></span><code class="descname">BYTES</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1ad3f227a5da052c9b22dd6e4b1d0c20e2"></span><code class="descname">NDEFAULT</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1ac2bbd6d630a06a980d9a92ddb9a49928"></span><code class="descname">IN</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1aec78e7a9e90a406a56f859ee456e8eae"></span><code class="descname">OUT</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1a3018c7600b7bb9866400596a56a57af7"></span><code class="descname">START</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtail_8c_1a29fd18bed01c4d836c7ebfe73a125c3f"></span><code class="descname">END</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv210parse_optsiA_PcP2ht">
+<span id="parse_opts__i.cPA.htP"></span><span class="target" id="fuserlandtail_8c_1a1fe03cc81bdb5c5b87c7580069ef22cb"></span>int <code class="descname">parse_opts</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[], <em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210parse_optsiA_PcP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210word_countiP2wc">
+<span id="word_count__i.wcP"></span><span class="target" id="fuserlandtail_8c_1a736e2a8578e81a5461af14e62105e425"></span>int <code class="descname">word_count</code><span class="sig-paren">(</span>int <em>fd</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210word_countiP2wc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211set_defaultP2ht">
+<span id="set_default__htP"></span><span class="target" id="fuserlandtail_8c_1a1bac1b36d878c33c787cdaac835bbdc6"></span>int <code class="descname">set_default</code><span class="sig-paren">(</span><em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211set_defaultP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv210set_offsetP2htP2wc">
+<span id="set_offset__htP.wcP"></span><span class="target" id="fuserlandtail_8c_1a75222cee65c0a8009d7a473ba130fb42"></span>int <code class="descname">set_offset</code><span class="sig-paren">(</span><em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210set_offsetP2htP2wc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv29ouroborosiP2ht">
+<span id="ouroboros__i.htP"></span><span class="target" id="fuserlandtail_8c_1aea6cc56923a3680335589b9ef75d1555"></span>int <code class="descname">ouroboros</code><span class="sig-paren">(</span>int <em>fd</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22ht" title="ht">ht</a> *<em>ht</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29ouroborosiP2ht" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandtail_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandtee_8c"></span><em>file</em> <code class="descname">tee.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandtee_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandtouch_8c"></span><em>file</em> <code class="descname">touch.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandtouch_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandtrue_8c"></span><em>file</em> <code class="descname">true.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandtrue_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlanduptime_8c"></span><em>file</em> <code class="descname">uptime.c</code></dt>
+<dd><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;sys/time.h&gt;</em><em>#include &lt;time.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlanduptime_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandwc_8c"></span><em>file</em> <code class="descname">wc.c</code></dt>
+<dd><em>#include &#8220;frosted_binutils.h&#8221;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandwc_8c_1a321ae946de24c36489276616d13c46cd"></span><code class="descname">LINES</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandwc_8c_1ae2814c32a96e064e19d7fa0d29091c77"></span><code class="descname">WORDS</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandwc_8c_1a8c8b55fe0c93b506f5a9b6f417452371"></span><code class="descname">BYTES</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandwc_8c_1ac2bbd6d630a06a980d9a92ddb9a49928"></span><code class="descname">IN</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandwc_8c_1aec78e7a9e90a406a56f859ee456e8eae"></span><code class="descname">OUT</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv210parse_optsiA_PcPi">
+<span id="parse_opts__i.cPA.iP"></span><span class="target" id="fuserlandwc_8c_1a7fa2933d02616f63e0df25db6351bbe1"></span>int <code class="descname">parse_opts</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[], int *<em>flags</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210parse_optsiA_PcPi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse our arguments. </p>
+<p>Detailed description describes descriptive things </p>
+</dd></dl>
+
+<dl class="function">
+<dt id="_CPPv28wc_countiP2wc">
+<span id="wc_count__i.wcP"></span><span class="target" id="fuserlandwc_8c_1a22c9843bcd474a57e87701250499c199"></span>int <code class="descname">wc_count</code><span class="sig-paren">(</span>int <em>fd</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv28wc_countiP2wc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv28wc_printPcP2wci">
+<span id="wc_print__cP.wcP.i"></span><span class="target" id="fuserlandwc_8c_1aa0ac06421dad04bc0d82fd97c2de3528"></span>int <code class="descname">wc_print</code><span class="sig-paren">(</span>char *<em>file</em>, <em class="property">struct</em> <a class="reference internal" href="#_CPPv22wc" title="wc">wc</a> *<em>wc</em>, int <em>flags</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv28wc_printPcP2wci" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandwc_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandyes_8c"></span><em>file</em> <code class="descname">yes.c</code></dt>
+<dd><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;getopt.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandyes_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlanddice_8c"></span><em>file</em> <code class="descname">dice.c</code></dt>
+<dd><em>#include &lt;stdio.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;ctype.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv29read_randv">
+<span id="read_rand__void"></span><span class="target" id="fuserlanddice_8c_1ad31dda2e69e693ed9ad549b667c036cd"></span><em class="property">static</em> uint32_t <code class="descname">read_rand</code><span class="sig-paren">(</span>void<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29read_randv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24rollv">
+<span id="roll__void"></span><span class="target" id="fuserlanddice_8c_1a4940d4a46a7d3f877d774872fae5ee4a"></span>int <code class="descname">roll</code><span class="sig-paren">(</span>void<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24rollv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlanddice_8c_1a700a0caa5b70a06d1064e576f9f3cf65"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandmorse_8c"></span><em>file</em> <code class="descname">morse.c</code></dt>
+<dd><em>#include &lt;stdint.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;string.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandmorse_8c_1ae8d5b4e7e2d9d21caaa4744d385d7cc7"></span><code class="descname">LED0</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24ditsi">
+<span id="dits__i"></span><span class="target" id="fuserlandmorse_8c_1a8e4cc9e433f804bd4edc0635958dcee7"></span>int <code class="descname">dits</code><span class="sig-paren">(</span>int <em>led</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24ditsi" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24dahsi">
+<span id="dahs__i"></span><span class="target" id="fuserlandmorse_8c_1ac4f790279e994afc0ed85703aa9fc630"></span>int <code class="descname">dahs</code><span class="sig-paren">(</span>int <em>led</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24dahsi" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv26blinkmiPc">
+<span id="blinkm__i.cP"></span><span class="target" id="fuserlandmorse_8c_1a4b28bd4d17c1022452e5889cc8636c86"></span>int <code class="descname">blinkm</code><span class="sig-paren">(</span>int <em>led</em>, char *<em>word</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv26blinkmiPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandmorse_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandrandom_8c"></span><em>file</em> <code class="descname">random.c</code></dt>
+<dd><em>#include &lt;stdint.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv29read_randv">
+<span id="read_rand__void"></span><span class="target" id="fuserlandrandom_8c_1ad31dda2e69e693ed9ad549b667c036cd"></span><em class="property">static</em> uint32_t <code class="descname">read_rand</code><span class="sig-paren">(</span>void<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29read_randv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandrandom_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandsensor_8c"></span><em>file</em> <code class="descname">sensor.c</code></dt>
+<dd><em>#include &lt;string.h&gt;</em><em>#include &lt;strings.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;sys/stat.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;poll.h&gt;</em><em>#include &lt;locale.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;errno.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;signal.h&gt;</em><em>#include &lt;getopt.h&gt;</em><em>#include &lt;ctype.h&gt;</em><em>#include &lt;sys/ioctl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.L3GD20_WHOAMI">
+<span class="target" id="fuserlandsensor_8c_1a56254e1a01b2ea0b9a54e749e5c07ef0"></span><code class="descname">L3GD20_WHOAMI</code><a class="headerlink" href="#c.L3GD20_WHOAMI" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_CTRL_REG1">
+<span class="target" id="fuserlandsensor_8c_1a9a699386c52d3e982b5b87bf64a63265"></span><code class="descname">L3GD20_CTRL_REG1</code><a class="headerlink" href="#c.L3GD20_CTRL_REG1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_CTRL_REG2">
+<span class="target" id="fuserlandsensor_8c_1abf8a14fcf7c71d020ec1e997e756f0ac"></span><code class="descname">L3GD20_CTRL_REG2</code><a class="headerlink" href="#c.L3GD20_CTRL_REG2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_CTRL_REG3">
+<span class="target" id="fuserlandsensor_8c_1aeb2e5d8253029150f597e605c2463588"></span><code class="descname">L3GD20_CTRL_REG3</code><a class="headerlink" href="#c.L3GD20_CTRL_REG3" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_CTRL_REG4">
+<span class="target" id="fuserlandsensor_8c_1a69e08d256193232a04042e45eef9eadb"></span><code class="descname">L3GD20_CTRL_REG4</code><a class="headerlink" href="#c.L3GD20_CTRL_REG4" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_CTRL_REG5">
+<span class="target" id="fuserlandsensor_8c_1a63b12c80d8a57299ffdded6e90010d3e"></span><code class="descname">L3GD20_CTRL_REG5</code><a class="headerlink" href="#c.L3GD20_CTRL_REG5" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_REFERENCE">
+<span class="target" id="fuserlandsensor_8c_1a86ba908f7b5d9d70a0ea248f83b21ce0"></span><code class="descname">L3GD20_REFERENCE</code><a class="headerlink" href="#c.L3GD20_REFERENCE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_TEMP">
+<span class="target" id="fuserlandsensor_8c_1a8b832ce2f50f29aaadd883fc646dcc76"></span><code class="descname">L3GD20_OUT_TEMP</code><a class="headerlink" href="#c.L3GD20_OUT_TEMP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_STATUS_REG">
+<span class="target" id="fuserlandsensor_8c_1aecb484dbb113307716a0e6b0ea7e0039"></span><code class="descname">L3GD20_STATUS_REG</code><a class="headerlink" href="#c.L3GD20_STATUS_REG" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_X_L">
+<span class="target" id="fuserlandsensor_8c_1a999b10c44993487041d118fccfcc173f"></span><code class="descname">L3GD20_OUT_X_L</code><a class="headerlink" href="#c.L3GD20_OUT_X_L" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_X_H">
+<span class="target" id="fuserlandsensor_8c_1a9cc30765b497fe0457e6cb28c7c63938"></span><code class="descname">L3GD20_OUT_X_H</code><a class="headerlink" href="#c.L3GD20_OUT_X_H" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_Y_L">
+<span class="target" id="fuserlandsensor_8c_1abce774cea6cffb0fb842c630d902a671"></span><code class="descname">L3GD20_OUT_Y_L</code><a class="headerlink" href="#c.L3GD20_OUT_Y_L" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_Y_H">
+<span class="target" id="fuserlandsensor_8c_1a179028113f796571face229f1d5376e6"></span><code class="descname">L3GD20_OUT_Y_H</code><a class="headerlink" href="#c.L3GD20_OUT_Y_H" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_Z_L">
+<span class="target" id="fuserlandsensor_8c_1a67d31874363da695f9852d3e54b7f754"></span><code class="descname">L3GD20_OUT_Z_L</code><a class="headerlink" href="#c.L3GD20_OUT_Z_L" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_OUT_Z_H">
+<span class="target" id="fuserlandsensor_8c_1aa45ac4da6d721665b633cb95ab290588"></span><code class="descname">L3GD20_OUT_Z_H</code><a class="headerlink" href="#c.L3GD20_OUT_Z_H" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_FIFO_CTRL_REG">
+<span class="target" id="fuserlandsensor_8c_1a4cbc99c0d45cd482450bea1c0f0ac4af"></span><code class="descname">L3GD20_FIFO_CTRL_REG</code><a class="headerlink" href="#c.L3GD20_FIFO_CTRL_REG" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_FIFO_SRC_REG">
+<span class="target" id="fuserlandsensor_8c_1aa7ca088ab5a74ef42cc1b3ef70f7acf9"></span><code class="descname">L3GD20_FIFO_SRC_REG</code><a class="headerlink" href="#c.L3GD20_FIFO_SRC_REG" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_CFG">
+<span class="target" id="fuserlandsensor_8c_1a029d2195857dce286eb17a029dbf814e"></span><code class="descname">L3GD20_INT1_CFG</code><a class="headerlink" href="#c.L3GD20_INT1_CFG" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_SRC">
+<span class="target" id="fuserlandsensor_8c_1ac119bdf4add6bb16e8604a2327119790"></span><code class="descname">L3GD20_INT1_SRC</code><a class="headerlink" href="#c.L3GD20_INT1_SRC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_XH">
+<span class="target" id="fuserlandsensor_8c_1a0f4a2b1cfaace6a8a67d7f3a5d3433bb"></span><code class="descname">L3GD20_INT1_TSH_XH</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_XH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_XL">
+<span class="target" id="fuserlandsensor_8c_1a70a4759c7fb8588aecc96fdd1289ba34"></span><code class="descname">L3GD20_INT1_TSH_XL</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_XL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_YH">
+<span class="target" id="fuserlandsensor_8c_1af59a8768cc8dd67ac03bb7801596357b"></span><code class="descname">L3GD20_INT1_TSH_YH</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_YH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_YL">
+<span class="target" id="fuserlandsensor_8c_1aff1a2ca88f7571b74c6e52cb6e34bdab"></span><code class="descname">L3GD20_INT1_TSH_YL</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_YL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_ZH">
+<span class="target" id="fuserlandsensor_8c_1aae5845bf26ed82ad3bcf331c61a1dcdb"></span><code class="descname">L3GD20_INT1_TSH_ZH</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_ZH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_TSH_ZL">
+<span class="target" id="fuserlandsensor_8c_1a7faa631f19b98d11d311d6cbc8804789"></span><code class="descname">L3GD20_INT1_TSH_ZL</code><a class="headerlink" href="#c.L3GD20_INT1_TSH_ZL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.L3GD20_INT1_DURATION">
+<span class="target" id="fuserlandsensor_8c_1a57d2d8e7c98c9de0f0b787f30e1e3b62"></span><code class="descname">L3GD20_INT1_DURATION</code><a class="headerlink" href="#c.L3GD20_INT1_DURATION" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.LSM303ACC_CTRL_REG1">
+<span class="target" id="fuserlandsensor_8c_1a4937a11fcf738de5f71d62caed4569ee"></span><code class="descname">LSM303ACC_CTRL_REG1</code><a class="headerlink" href="#c.LSM303ACC_CTRL_REG1" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.CRA_REG_M">
+<span class="target" id="fuserlandsensor_8c_1ad5db5abd5c3f56469dd0b8b79d8438a0"></span><code class="descname">CRA_REG_M</code><a class="headerlink" href="#c.CRA_REG_M" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24gyroiA_Pc">
+<span id="gyro__i.cPA"></span><span class="target" id="fuserlandsensor_8c_1a6fed4c0389fb0fcef53ece60d7961e7e"></span>int <code class="descname">gyro</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24gyroiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv23acciA_Pc">
+<span id="acc__i.cPA"></span><span class="target" id="fuserlandsensor_8c_1affb92419890067d57b34af0a88f65a0e"></span>int <code class="descname">acc</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv23acciA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv23magiA_Pc">
+<span id="mag__i.cPA"></span><span class="target" id="fuserlandsensor_8c_1a4f056cbf3c95dde753ef68fc9f2f0e5b"></span>int <code class="descname">mag</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>args</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv23magiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandsensor_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandhost_8c"></span><em>file</em> <code class="descname">host.c</code></dt>
+<dd><em>#include &lt;errno.h&gt;</em><em>#include &lt;sys/socket.h&gt;</em><em>#include &lt;netinet/in.h&gt;</em><em>#include &lt;arpa/inet.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;string.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c.htonl">
+<span class="target" id="fuserlandhost_8c_1ae4027a6ad07f13aa12eab285a1b46019"></span><code class="descname">htonl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span><a class="headerlink" href="#c.htonl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.ntohl">
+<span class="target" id="fuserlandhost_8c_1ac317b3e903719ba02894f1710f7f2439"></span><code class="descname">ntohl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span><a class="headerlink" href="#c.ntohl" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.htons">
+<span class="target" id="fuserlandhost_8c_1a51799f5ebb4c7228ef7e95c247030f42"></span><code class="descname">htons</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span><a class="headerlink" href="#c.htons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.ntohs">
+<span class="target" id="fuserlandhost_8c_1ada37feda716b4ba89cf9dba34288141d"></span><code class="descname">ntohs</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span><a class="headerlink" href="#c.ntohs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandhost_8c_1afcf80a6d91178952d107ad00b165752b"></span><code class="descname">STDIN_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandhost_8c_1abd165ee6474b5b75bf075842fff13a04"></span><code class="descname">STDOUT_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandhost_8c_1ae2fe1725bb5e9823d089c46b9ed5266e"></span><code class="descname">STDERR_FILENO</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandhost_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandifconfig_8c"></span><em>file</em> <code class="descname">ifconfig.c</code></dt>
+<dd><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stddef.h&gt;</em><em>#include &lt;sys/time.h&gt;</em><em>#include &lt;sys/socket.h&gt;</em><em>#include &lt;netinet/in.h&gt;</em><em>#include &lt;arpa/inet.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;sys/ioctl.h&gt;</em><em>#include &lt;net/if.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;errno.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt id="c._BSD_SOURCE">
+<span class="target" id="fuserlandifconfig_8c_1ad3d8a3bd0c0b677acef144f2c2ef6d73"></span><code class="descname">_BSD_SOURCE</code><a class="headerlink" href="#c._BSD_SOURCE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandifconfig_8c_1ae4027a6ad07f13aa12eab285a1b46019"></span><code class="descname">htonl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandifconfig_8c_1ac317b3e903719ba02894f1710f7f2439"></span><code class="descname">ntohl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandifconfig_8c_1a51799f5ebb4c7228ef7e95c247030f42"></span><code class="descname">htons</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandifconfig_8c_1ada37feda716b4ba89cf9dba34288141d"></span><code class="descname">ntohs</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.PROC_NET_DEV">
+<span class="target" id="fuserlandifconfig_8c_1a5a06d20e965236f88fade71c7878b426"></span><code class="descname">PROC_NET_DEV</code><a class="headerlink" href="#c.PROC_NET_DEV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv28is_digitc">
+<span id="is_digit__c"></span><span class="target" id="fuserlandifconfig_8c_1a1793c54343a2054b43f03d52b5fb1518"></span><em class="property">static</em> int <code class="descname">is_digit</code><span class="sig-paren">(</span>char <em>a</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv28is_digitc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv29inet_atonPKcP7in_addr">
+<span id="inet_aton__cCP.in_addrP"></span><span class="target" id="fuserlandifconfig_8c_1a2e14cfa6ded77b65c948476358284cf1"></span>int <code class="descname">inet_aton</code><span class="sig-paren">(</span><em class="property">const</em> char *<em>cp</em>, <em class="property">struct</em> in_addr *<em>inp</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29inet_atonPKcP7in_addr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv29inet_ntoa7in_addr">
+<span id="inet_ntoa__in_addr"></span><span class="target" id="fuserlandifconfig_8c_1ad4f0ff9847e25f2b4a760aea9b366ef3"></span>char *<code class="descname">inet_ntoa</code><span class="sig-paren">(</span><em class="property">struct</em> in_addr <em>a</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv29inet_ntoa7in_addr" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv26ifdownPc">
+<span id="ifdown__cP"></span><span class="target" id="fuserlandifconfig_8c_1a780f432f714814527a6882a007d559e7"></span>int <code class="descname">ifdown</code><span class="sig-paren">(</span>char *<em>ifname</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv26ifdownPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24ifupPc">
+<span id="ifup__cP"></span><span class="target" id="fuserlandifconfig_8c_1a96c30f8dc5cedceb5dd1cacce4d5248e"></span>int <code class="descname">ifup</code><span class="sig-paren">(</span>char *<em>ifname</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24ifupPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv28ifconfigPcPcPc">
+<span id="ifconfig__cP.cP.cP"></span><span class="target" id="fuserlandifconfig_8c_1a036dadabfdd07d7983a1f3a332050c20"></span>int <code class="descname">ifconfig</code><span class="sig-paren">(</span>char *<em>ifname</em>, char *<em>address</em>, char *<em>netmask</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv28ifconfigPcPcPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv220ifconf_getpropertiesPcP7uint8_tP11sockaddr_inP11sockaddr_inP11sockaddr_in">
+<span id="ifconf_getproperties__cP.uint8_tP.sockaddr_inP.sockaddr_inP.sockaddr_inP"></span><span class="target" id="fuserlandifconfig_8c_1a5e7894214a6027e2db582f7d849ebdd4"></span>int <code class="descname">ifconf_getproperties</code><span class="sig-paren">(</span>char *<em>ifname</em>, uint8_t *<em>macaddr</em>, <em class="property">struct</em> sockaddr_in *<em>address</em>, <em class="property">struct</em> sockaddr_in *<em>netmask</em>, <em class="property">struct</em> sockaddr_in *<em>broadcast</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv220ifconf_getpropertiesPcP7uint8_tP11sockaddr_inP11sockaddr_inP11sockaddr_in" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv213ifconf_statusPc">
+<span id="ifconf_status__cP"></span><span class="target" id="fuserlandifconfig_8c_1a867b165de967bf64caa5d670f59b60b3"></span>int <code class="descname">ifconf_status</code><span class="sig-paren">(</span>char *<em>ifname</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv213ifconf_statusPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv213ifconf_getmacPcP7uint8_t">
+<span id="ifconf_getmac__cP.uint8_tP"></span><span class="target" id="fuserlandifconfig_8c_1a4afbe4db6acfe2c1eb976ecb28a95917"></span>int <code class="descname">ifconf_getmac</code><span class="sig-paren">(</span>char *<em>ifname</em>, uint8_t *<em>mac</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv213ifconf_getmacPcP7uint8_t" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv217ifconf_getaddressPcP11sockaddr_in">
+<span id="ifconf_getaddress__cP.sockaddr_inP"></span><span class="target" id="fuserlandifconfig_8c_1a971cfaac00de56f58629adc249ac3e3f"></span>int <code class="descname">ifconf_getaddress</code><span class="sig-paren">(</span>char *<em>ifname</em>, <em class="property">struct</em> sockaddr_in *<em>address</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv217ifconf_getaddressPcP11sockaddr_in" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv217ifconf_getnetmaskPcP11sockaddr_in">
+<span id="ifconf_getnetmask__cP.sockaddr_inP"></span><span class="target" id="fuserlandifconfig_8c_1aabd0a33bad3646704a5d63263f61c24c"></span>int <code class="descname">ifconf_getnetmask</code><span class="sig-paren">(</span>char *<em>ifname</em>, <em class="property">struct</em> sockaddr_in *<em>netmask</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv217ifconf_getnetmaskPcP11sockaddr_in" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv219ifconf_getbroadcastPcP11sockaddr_in">
+<span id="ifconf_getbroadcast__cP.sockaddr_inP"></span><span class="target" id="fuserlandifconfig_8c_1ad143fff53fed42a3ff635a480d665fe7"></span>int <code class="descname">ifconf_getbroadcast</code><span class="sig-paren">(</span>char *<em>ifname</em>, <em class="property">struct</em> sockaddr_in *<em>broadcast</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv219ifconf_getbroadcastPcP11sockaddr_in" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211iflinksensePc">
+<span id="iflinksense__cP"></span><span class="target" id="fuserlandifconfig_8c_1ad2af9473bc5c95dd11665729b4dabeb0"></span>int <code class="descname">iflinksense</code><span class="sig-paren">(</span>char *<em>ifname</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211iflinksensePc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv211ifconf_showPc">
+<span id="ifconf_show__cP"></span><span class="target" id="fuserlandifconfig_8c_1ad0bc561a85f82dc05d31063e1a63bdb0"></span>void <code class="descname">ifconf_show</code><span class="sig-paren">(</span>char *<em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv211ifconf_showPc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv25usagePc">
+<span id="usage__cP"></span><span class="target" id="fuserlandifconfig_8c_1a7fc5a186fc851439ce3b899b1805d309"></span><em class="property">static</em> void <code class="descname">usage</code><span class="sig-paren">(</span>char *<em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv25usagePc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandifconfig_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt id="_CPPv213inet_ntoa_str">
+<span id="inet_ntoa_str__cA"></span><span class="target" id="fuserlandifconfig_8c_1aec775d20150fb885f86bbea7db69bff8"></span>char <code class="descname">inet_ntoa_str</code>[20]<a class="headerlink" href="#_CPPv213inet_ntoa_str" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandnc_8c"></span><em>file</em> <code class="descname">nc.c</code></dt>
+<dd><em>#include &lt;errno.h&gt;</em><em>#include &lt;sys/socket.h&gt;</em><em>#include &lt;netinet/in.h&gt;</em><em>#include &lt;arpa/inet.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;unistd.h&gt;</em><em>#include &lt;string.h&gt;</em><em>#include &lt;poll.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1ae4027a6ad07f13aa12eab285a1b46019"></span><code class="descname">htonl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1ac317b3e903719ba02894f1710f7f2439"></span><code class="descname">ntohl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1a51799f5ebb4c7228ef7e95c247030f42"></span><code class="descname">htons</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1ada37feda716b4ba89cf9dba34288141d"></span><code class="descname">ntohs</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1afcf80a6d91178952d107ad00b165752b"></span><code class="descname">STDIN_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1abd165ee6474b5b75bf075842fff13a04"></span><code class="descname">STDOUT_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandnc_8c_1ae2fe1725bb5e9823d089c46b9ed5266e"></span><code class="descname">STDERR_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.NC_CONNECT">
+<span class="target" id="fuserlandnc_8c_1a2648492ea4721b59d531b26cb6a6dc7e"></span><code class="descname">NC_CONNECT</code><a class="headerlink" href="#c.NC_CONNECT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt id="c.NC_LISTEN">
+<span class="target" id="fuserlandnc_8c_1a93f969e7acbc5f59e897e4e75b64d4d4"></span><code class="descname">NC_LISTEN</code><a class="headerlink" href="#c.NC_LISTEN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv210parse_confP11netcat_confiA_Pc">
+<span id="parse_conf__netcat_confP.i.cPA"></span><span class="target" id="fuserlandnc_8c_1ad1f437019102c13076cabe7b0f6dff31"></span><em class="property">static</em> int <code class="descname">parse_conf</code><span class="sig-paren">(</span><em class="property">struct</em> <a class="reference internal" href="#_CPPv211netcat_conf" title="netcat_conf">netcat_conf</a> *<em>conf</em>, int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv210parse_confP11netcat_confiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandnc_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="file">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c"></span><em>file</em> <code class="descname">telnetd.c</code></dt>
+<dd><em>#include &lt;netinet/in.h&gt;</em><em>#include &lt;sys/types.h&gt;</em><em>#include &lt;sys/socket.h&gt;</em><em>#include &lt;stdlib.h&gt;</em><em>#include &lt;stdio.h&gt;</em><em>#include &lt;fcntl.h&gt;</em><em>#include &lt;unistd.h&gt;</em><div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Defines</p>
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1ae4027a6ad07f13aa12eab285a1b46019"></span><code class="descname">htonl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1ac317b3e903719ba02894f1710f7f2439"></span><code class="descname">ntohl</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1a51799f5ebb4c7228ef7e95c247030f42"></span><code class="descname">htons</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1ada37feda716b4ba89cf9dba34288141d"></span><code class="descname">ntohs</code><span class="sig-paren">(</span>x<span class="sig-paren">)</span></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1afcf80a6d91178952d107ad00b165752b"></span><code class="descname">STDIN_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1abd165ee6474b5b75bf075842fff13a04"></span><code class="descname">STDOUT_FILENO</code></dt>
+<dd></dd></dl>
+
+<dl class="macro">
+<dt>
+<span class="target" id="fuserlandtelnetd_8c_1ae2fe1725bb5e9823d089c46b9ed5266e"></span><code class="descname">STDERR_FILENO</code></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Functions</p>
+<dl class="function">
+<dt id="_CPPv24mainiA_Pc">
+<span id="main__i.cPA"></span><span class="target" id="fuserlandtelnetd_8c_1a0ddf1224851353fc92bfbff6f499fa97"></span>int <code class="descname">main</code><span class="sig-paren">(</span>int <em>argc</em>, char *<em>argv</em>[]<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv24mainiA_Pc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef container">
+<p class="breathe-sectiondef-title rubric">Variables</p>
+<dl class="member">
+<dt id="_CPPv29FRESH_BIN">
+<span id="FRESH_BIN__cCA"></span><span class="target" id="fuserlandtelnetd_8c_1a601322d4a2e2564f760453859f568480"></span><em class="property">const</em> char <code class="descname">FRESH_BIN</code>[]<a class="headerlink" href="#_CPPv29FRESH_BIN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="member">
+<dt id="_CPPv210fresh_args">
+<span id="fresh_args__cCPA"></span><span class="target" id="fuserlandtelnetd_8c_1a556bc8c2aee679dbecd52be1f06d57c2"></span><em class="property">const</em> char *<code class="descname">fresh_args</code>[2]<a class="headerlink" href="#_CPPv210fresh_args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="dir">
+<dt>
+<span class="target" id="fuserlanddir_1f1ff8202f22c04eb0d6e9a07310929e"></span><em>dir</em> <code class="descname">binutils</code></dt>
+<dd></dd></dl>
+
+<dl class="dir">
+<dt>
+<span class="target" id="fuserlanddir_4b6f782e158b0b98da980a0e11a23a15"></span><em>dir</em> <code class="descname">games</code></dt>
+<dd></dd></dl>
+
+<dl class="dir">
+<dt>
+<span class="target" id="fuserlanddir_38a1fd7a304bce8e304685526cbfafc1"></span><em>dir</em> <code class="descname">hw-utils</code></dt>
+<dd></dd></dl>
+
+<dl class="dir">
+<dt>
+<span class="target" id="fuserlanddir_61f3d17f098650beb04771d6c34a7019"></span><em>dir</em> <code class="descname">netutils</code></dt>
+<dd></dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="tutorial.html" title="previous chapter">Getting started</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/docs.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, brabo.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4b1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.7</a>
+      
+      |
+      <a href="_sources/docs.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

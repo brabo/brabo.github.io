@@ -1,0 +1,25 @@
+.. Frosted Userland documentation - getting started..
+
+Getting started
+===============
+
+In order to get started with Frosted you will need a couple things:
+- Frosted ARM toolchain
+- Frosted repository
+
+Check our [toolchain releases](https://github.com/insane-adding-machines/crosstool-ng/releases) and get the latest one. Extract it and then add the arm-frosted-eabi root directory to your PATH like:
+
+    export PATH=$PATH:/home/user/arm-frosted-eabi
+
+Then clone the [Frosted GitHub repository](https://github.com/insane-adding-machines/frosted).
+Enter the frosted root directory and first off do:
+
+    git submodule init && git submodule update
+
+Next run:
+
+    make menuconfig
+
+And select the hardware depending on your target:
+- [QEMU]
+- [STM32](https://github.com/insane-adding-machines/frosted/wiki/Running-on-STM-targets)
